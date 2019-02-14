@@ -1,0 +1,10 @@
+namespace proto;
+
+table Order
+{
+   id: uint32;
+}
+
+file_identifier "v001";
+
+root_type Order;
